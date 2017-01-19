@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- html pagina in nederlandse taal -->
+<html lang= "nl">
+<head>
+<!-- Title on tab -->
+	<title>Aanvraag- en Leveringsscherm</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  	<!-- Latest compiled and minified CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<!-- Latest compiled JavaScript -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<!-- meta indicator with description of the site -->
+  	<meta name="description" content="formulier van aanvraag en bevestiging">
+ 	 <!-- meta indicator for the site keywords -->
+  	<meta name="keywords" content="formulier, aanvragen, bevestigingen">
+	<script src="style1.css"></script> <!-- je linkt naar je css met behulp van een 'link' element --> 
+   	<link rel="stylesheet" type="text/css" href="style1.css">
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="test2.js"></script>
+</head>
+<body>
+	<div class="container">
+		<h1>Aanvraag- en Leveringsscherm</h1>
+		<br>
+		<br>
+		<br>	
+		<br>
+		<form class="form-horizontal"> <!--action="test2.js" method="get"-->
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="Aanvraag"> Aanvraag:</label>
+					<div class="col-sm-8"><input class="form-control input-sm" id="Aanvraag" type="text" placeholder="Enter tekst">
+						<button  type="button" onclick="onclick1()" id="click1" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-remove"></i></button>
+					</div>
+				</div>
+			<br>
+			<br>
+			<br>
+			<br>	
+			<br>
+			<br>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="Levering"> Levering:</label>
+					<div class="col-sm-8"><input class="form-control input-sm" id="Levering" type="text" placeholder="Enter tekst">
+						<button  type="button" onclick="onclick2()" id="click2"class="btn btn-default btn-sm"><i class="glyphicon glyphicon-remove"></i></button>
+					</div>
+				</div>
+			<br>
+			<br>
+			<br>	
+			<br>
+			<br>	
+			<div class="form-group">        
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" onclick="onclick3()" id="publiceer"class="btn btn-default active">publiceer</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</body>
+	
+</html>	
+ 	
+
+
